@@ -1,0 +1,360 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.navbar{
+    height:10%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.logo img{
+    height: 80%;
+    width: 70%;
+    margin-left: 20px;
+}
+.list{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.list li{
+    list-style: none;
+    margin: 10px;
+}
+.list button{
+    height: 60%;
+    width:10%;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+}
+
+.start{
+    height: 90%;
+    width: 100%;
+    background-image: url(/images/banner.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start h1{
+    font-size: 60px;
+    text-align: center;
+}
+.start p{
+    font-size: 30px;
+    text-align: center;
+    margin: -10px;
+
+}
+
+.start button{
+    height: 10%;
+    width: 15%;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.convenience{
+    height:100%;
+    width: 30%;
+}
+.convenience img{
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.variety{
+    height: 100%;
+    width: 30%;
+}
+.variety img{
+    height:60%;
+    width: 90%;
+    border-radius: 10px;
+
+}
+.deliciousness{
+    height: 100%;
+    width: 30%;
+}
+.deliciousness img{
+    height: 60%;
+    width:90%;
+    border-radius: 10px;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+
+}
+.right{
+    height: 100%;
+    width:50%;
+    background-color: aliceblue;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left h1{
+    font-size: 30px;
+    /* font-weight: 200; */
+}
+.how{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 400;
+}
+.how li{
+    margin-left: 90px;
+}
+.how button{
+    height:100%;
+    width: 20%;
+    border: none;
+    border-radius: 40px;
+    background-color: orangered;
+    margin-left: 90px;
+
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foods{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.vegan{
+    height: 90%;
+    width: 30%;
+    /* background-color: blue; */
+
+}
+.vegan img{
+    height: 80%;
+    width: 90%;
+    border-radius: 30px;
+}
+.weekly{
+height: 90%;
+width: 30%;
+}
+
+.weekly img{
+    height: 80%;
+    width:90%;
+    border-radius: 30px;
+}
+.vegetarian{
+    height: 90%;
+    width: 30%;
+}
+.vegetarian img{
+    height: 80%;
+    width: 90%;
+    border-radius: 30px;
+}
+.button{
+    height: 10%;
+    width: 100%; 
+   /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 200;
+    height: 90%;
+    width: 20%;
+}
+.page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hellochef{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.hellochef img{
+    height: 70%;
+    width: 22%;
+}
+
+.majina{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/subscribe.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big{
+    height: 60%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+/* .inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.small{
+    height: 30%;
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small input{
+    height: 40%;
+    width: 50%;
+}
+.small button{
+    height: 45%;
+    width: 25%;
+    background-color: orangered;
+    border-radius: none;
+    border: none;
+
+}
+.page7{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+
+}
+
+.page7 img{
+    height: 8%;
+    width: 10%;
+}
+.aboutkubwa{
+    height: 40%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+.links{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.box input{
+    height: 30%;
+    width:60%;
+    border-radius: 5px;
+    
+    
+}
+.box button{
+    height: 35%;
+    width: 38%;
+    background-color: orangered;
+    
+    border: none;
+    border-radius: 5px;
+}
+
+.done{
+    text-align: center;
+}
+
